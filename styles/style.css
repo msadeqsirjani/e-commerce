@@ -377,3 +377,55 @@ main .dragable-list .category:hover {
   font-weight: bold;
   cursor: pointer;
 }
+
+/* footer */
+
+footer {
+  background-color: #636e72;
+  color: white;
+  font-size: 1em;
+}
+
+footer .about {
+  padding: 20px 40px;
+}
+
+footer .about .header {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+footer .about .description {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.9em;
+  font-size: 0.9em;
+}
+
+footer .contact-us {
+  padding: 20px 40px;
+  text-align: center;
+}
+
+footer .contact-us .header {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+footer .contact-us .social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+}
+
+footer .contact-us .social-media a i {
+  font-size: 1.4em;
+  color: white;
+}
+
+footer .author-privacy {
+  text-align: center;
+  background-color: #2d3436;
+  padding: 15px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
