@@ -142,8 +142,9 @@ main .products .product .product-image-info .product-score {
 
 main .products .product .product-title {
   margin: 15px;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: bold;
+  color: #444;
 }
 
 main .products .product .product-detail {
@@ -249,9 +250,6 @@ main .amazing-product .amazing-off .amazing-offer-title {
   display: inline-block;
 }
 
-main .amazing-product .amazing-off .amazing-offer-body {
-}
-
 main .amazing-product .amazing-off .amazing-offer-body .amazing-product-image {
   text-align: center;
   padding: 30px;
@@ -353,4 +351,29 @@ main .offer-banner {
 main .offer-banner img {
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.owl-stage-outer {
+  direction: ltr;
+}
+
+main .dragable-list img {
+  width: 60% !important;
+  margin: auto;
+}
+
+main .dragable-list .category {
+  padding: 0 20px;
+  color: #444;
+  border-bottom: 1px solid rgb(231, 76, 60);
+  font-size: 1.2em;
+  display: inline-block;
+}
+
+main .dragable-list .category:hover {
+  border-bottom: 5px solid rgb(231, 76, 60);
+  transition: 0.75s;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
 }
