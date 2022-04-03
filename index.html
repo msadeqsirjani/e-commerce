@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/bdc3a9fe07.js" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/animate.css">
+    <link rel="stylesheet" href="./styles/flexboxgrid.css">
+</head>
+
+<body>
+    <header>
+        <section>
+            <nav>
+                <div class="site-nav-right">
+                    <a href="#">
+                        <i class="far fa-user"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-home"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+                <div class="site-nav-left">
+                    <div class="register-login-btn">
+                        <i class="fas fa-user"></i>
+                        <a href="#">ثبت نام / ورود</a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section>
+            <div class="slider">
+                <div class="slides">
+                    <div id="slide-1" class="slide-item slide-item-active">
+                        <img src="./images/s1.jpg" alt="woman listen to music">
+                        <p>رویا ها تو با صدا بلند گوش بده</p>
+                    </div>
+                    <div id="slide-2" class="slide-item">
+                        <img src="./images/s2.jpg" alt="headphone">
+                        <p>کیفیت صدایی که همیشه <br> دنبال اون بودی اینجاست</p>
+                    </div>
+                    <div id="slide-3" class="slide-item">
+                        <img src="./images/s3.jpg" alt="woman listen to music">
+                        <p>آهنگ ها رو زنده تر از چیزی که هستن گوش بده</p>
+                    </div>
+                </div>
+                <div class="slide-btn">
+                    <a href="#">
+                        <i onclick="setSlide('slide-1', 1)" class="fa-solid fa-circle"></i>
+                    </a>
+                    <a href="#">
+                        <i onclick="setSlide('slide-2', 2)" class="fa-solid fa-circle"></i>
+                    </a>
+                    <a href="#">
+                        <i onclick="setSlide('slide-3', 3)" class="fa-solid fa-circle"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <div class="products">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
+                        <div class="product-image-info">
+                            <img src="./images/p1.jpg" alt="">
+                            <div class="product-score">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-title">
+                            <p>هدست کامپیوتر تسکو مدل TH 5124</p>
+                        </div>
+                        <div class="product-detail">
+                            <div class="product-price">
+                                <p>900 هزار تومان</p>
+                            </div>
+                            <div class="product-action">
+                                <div class="like product-action-btn">
+                                    <a class="btn-text" href="#">علاقه مندی</a>
+                                    <a class="btn-icon" href="#">
+                                        <i class="fa-solid fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="add-to-cart product-action-btn">
+                                    <a class="btn-text" href="#">خرید</a>
+                                    <a class="btn-icon" href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
+                        <div class="product-image-info">
+                            <img src="./images/p2.jpg" alt="">
+                            <p class="product-off">پیشنهاد ویژه</p>
+                            <div class="product-score">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-title">
+                            <p>هدست کامپیوتر تسکو مدل TH 5304</p>
+                        </div>
+                        <div class="product-detail">
+                            <div class="product-price">
+                                <p>800 هزار تومان</p>
+                            </div>
+                            <div class="product-action">
+                                <div class="like product-action-btn">
+                                    <a class="btn-text" href="#">علاقه مندی</a>
+                                    <a class="btn-icon" href="#">
+                                        <i class="fa-solid fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="add-to-cart product-action-btn">
+                                    <a class="btn-text" href="#">خرید</a>
+                                    <a class="btn-icon" href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
+                        <div class="product-image-info">
+                            <img src="./images/p3.jpg" alt="">
+                            <div class="product-score">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-title">
+                            <p>هدست بی سیم ریو S100</p>
+                        </div>
+                        <div class="product-detail">
+                            <div class="product-price">
+                                <p>900 هزار تومان</p>
+                            </div>
+                            <div class="product-action">
+                                <div class="like product-action-btn">
+                                    <a class="btn-text" href="#">علاقه مندی</a>
+                                    <a class="btn-icon" href="#">
+                                        <i class="fa-solid fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="add-to-cart product-action-btn">
+                                    <a class="btn-text" href="#">خرید</a>
+                                    <a class="btn-icon" href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 product">
+                        <div class="product-image-info">
+                            <img src="./images/p4.jpg" alt="">
+                            <p class="product-off">پیشنهاد ویژه</p>
+                            <div class="product-score">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-title">
+                            <p>هدست بی سیم مخصوص بازی ایسوس</p>
+                        </div>
+                        <div class="product-detail">
+                            <div class="product-price">
+                                <p>650 هزار تومان</p>
+                            </div>
+                            <div class="product-action">
+                                <div class="like product-action-btn">
+                                    <a class="btn-text" href="#">علاقه مندی</a>
+                                    <a class="btn-icon" href="#">
+                                        <i class="fa-solid fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="add-to-cart product-action-btn">
+                                    <a class="btn-text" href="#">خرید</a>
+                                    <a class="btb-icon" href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+    <footer></footer>
+</body>
+
+</html>

@@ -1,0 +1,225 @@
+/* navigation bar */
+
+header {
+  font-size: 1em;
+  color: rgb(68, 68, 68);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 15px;
+  font-size: 1em;
+}
+
+header nav .site-nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .site-nav-right a {
+  margin: 0 15px;
+  pad: 5px 10px;
+  color: rgb(68, 68, 68);
+  font-size: 1.1em;
+}
+
+header nav .site-nav-left .register-login-btn {
+  border: 1px solid rgb(68, 68, 68);
+  padding: 5px 8px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav .site-nav-left .register-login-btn i {
+  margin: 7px;
+  color: rgb(68, 68, 68);
+  font-size: 1.1em;
+}
+
+header nav .site-nav-left .register-login-btn a {
+  color: rgb(68, 68, 68);
+  margin: 0px 10px;
+  font-size: 0.9em;
+}
+
+/* slider */
+
+header .slider {
+  position: relative;
+  font-size: 1em;
+}
+
+header .slider .slides .slide-item {
+  display: none;
+  position: relative;
+}
+
+header .slider .slides .slide-item img {
+  width: 100%;
+}
+
+header .slider .slides .slide-item p {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  right: 10%;
+  top: 30%;
+  font-size: 1.25em;
+}
+
+header .slider .slides .slide-item-active {
+  display: block;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+header .slider .slide-btn {
+  position: absolute;
+  left: 3%;
+  bottom: 8%;
+  z-index: 1;
+}
+
+header .slider .slide-btn i {
+  color: white;
+  margin-right: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+header .slider .slide-btn i:hover {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* products */
+
+main .products {
+  padding: 20px 10px;
+  font-size: 1em;
+}
+
+main .products .product {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px 5px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+main .products .product .product-image-info {
+  position: relative;
+}
+
+main .products .product .product-image-info img {
+  width: 60%;
+}
+
+main .products .product .product-image-info .product-off {
+  position: absolute;
+  background-color: rgb(231, 76, 60);
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+  top: 0px;
+  right: 3px;
+  font-size: 0.9em;
+  z-index: 1;
+}
+
+main .products .product .product-image-info .product-score {
+  position: absolute;
+  color: goldenrod;
+  padding: 3px 5px;
+  top: 5px;
+  left: 3px;
+  font-size: 0.9em;
+  z-index: 1;
+}
+
+main .products .product .product-title {
+  margin: 15px;
+}
+
+main .products .product .product-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+main .products .product .product-detail .product-price {
+  color: gray;
+  font-weight: bold;
+}
+
+main .products .product .product-detail .product-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+main .products .product .product-detail .product-action a {
+  text-align: center;
+  color: white;
+}
+
+main .products .product .product-detail .product-action .product-action-btn {
+  background-color: rgb(39, 174, 96);
+  margin-left: 5px;
+  width: 40px;
+  padding: 8px 12px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.75s;
+}
+
+main
+  .products
+  .product
+  .product-detail
+  .product-action
+  .product-action-btn:hover {
+  width: 100px;
+}
+
+main
+  .products
+  .product
+  .product-detail
+  .product-action
+  .product-action-btn:hover
+  .btn-text {
+  display: block;
+}
+
+main .products .product .product-detail .product-action .btn-text {
+  display: none;
+  text-align: center;
+  color: white;
+}
+
+main .products .product .product-detail .product-action .btn-icon {
+  color: white;
+  padding-top: 3px;
+}
+
+main .products .product .product-detail .product-action .like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .products .product .product-detail .product-action .like:hover .btn-text {
+  font-size: 0.7em;
+}
+
+main .products .product .product-detail .product-action .add-to-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
