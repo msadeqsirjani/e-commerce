@@ -105,7 +105,7 @@ main .products {
 main .products .product {
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 10px 5px;
+  margin: 10px;
   border-radius: 5px;
   padding: 10px;
 }
@@ -142,6 +142,8 @@ main .products .product .product-image-info .product-score {
 
 main .products .product .product-title {
   margin: 15px;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
 main .products .product .product-detail {
@@ -222,4 +224,133 @@ main .products .product .product-detail .product-action .add-to-cart {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/* amazing product */
+
+main .amazing-product {
+  padding: 20px;
+  font-size: 1em;
+}
+
+main .amazing-product .amazing-off {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border: 5px;
+  margin: 0 10px;
+}
+
+main .amazing-product .amazing-off .amazing-offer-title {
+  background-color: rgb(231, 76, 60);
+  color: white;
+  padding: 8px 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: inline-block;
+}
+
+main .amazing-product .amazing-off .amazing-offer-body {
+}
+
+main .amazing-product .amazing-off .amazing-offer-body .amazing-product-image {
+  text-align: center;
+  padding: 30px;
+}
+
+main
+  .amazing-product
+  .amazing-off
+  .amazing-offer-body
+  .amazing-product-image
+  img {
+  width: 100%;
+}
+
+main .amazing-product .amazing-off .amazing-offer-body .amazing-product-info {
+  padding: 10px 5px;
+}
+
+main
+  .amazing-product
+  .amazing-off
+  .amazing-offer-body
+  .amazing-product-info
+  .amazing-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main
+  .amazing-product
+  .amazing-off
+  .amazing-offer-body
+  .amazing-product-info
+  .amazing-price
+  #price {
+  margin-left: 30px;
+  color: gray;
+  font-size: 1.2em;
+}
+
+main
+  .amazing-product
+  .amazing-off
+  .amazing-offer-body
+  .amazing-product-info
+  .amazing-price
+  #discount {
+  background-color: rgb(231, 76, 60);
+  color: white;
+  padding: 5px 20px;
+  border-radius: 25px;
+}
+
+main
+  .amazing-product
+  .amazing-off
+  .amazing-offer-body
+  .amazing-product-info
+  .amazing-title {
+  margin: 40px 0;
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #444;
+}
+
+main
+  .amazing-product
+  .amazing-off
+  .amazing-offer-body
+  .amazing-product-info
+  .counter-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  margin: 5px 40px;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #666;
+}
+
+main
+  .amazing-product
+  .amazing-off
+  .amazing-offer-body
+  .amazing-product-info
+  .remaining-time {
+  color: #777;
+  font-size: 0.8em;
+}
+
+main .offer-banner {
+  text-align: center;
+  padding: 10px 5px;
+}
+
+main .offer-banner img {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
